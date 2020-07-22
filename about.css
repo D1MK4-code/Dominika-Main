@@ -34,7 +34,7 @@ html{
 }
 .main-navigation-list li:hover{
     border-bottom: 3px none lightblue;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: lightskyblue;
 }
 
