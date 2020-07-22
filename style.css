@@ -63,12 +63,12 @@ body{
     text-align: right;
     justify-content: center;
 }
-h1{
-    font-size: 9rem;
+.main-text-wrapper h1{
+    font-size: 8rem;
     font-weight: 700;
 
 }
-p{
+.main-text-wrapper p{
     padding-top: 60px;
     padding-bottom: 20px;
     width: 310px;
@@ -80,7 +80,7 @@ p{
     position: absolute;
     display: flex;
     flex-direction: row;
-    right: 600px;
+    right: 565px;
     bottom: 50px;
 }
 
