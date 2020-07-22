@@ -70,18 +70,15 @@ body{
 }
 .main-text-wrapper p{
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     width: 310px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.6;
 }
 
 .sci {
-    position: absolute;
     display: flex;
     flex-direction: row;
-    right: 565px;
-    bottom: 50px;
 }
 
 .sci li {
