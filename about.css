@@ -51,10 +51,10 @@ html{
     display: flex;
     flex-direction: column;
     width: 65%;
-    height: calc(100vh - 500px);
+    height: calc(100vh - 550px);
     align-items: flex-start;
     padding: 45px;
-    padding-bottom: 0;
+    padding-bottom: 50px;
     text-align: left;
     justify-content: center;
     margin-left: 133px;

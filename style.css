@@ -9,9 +9,6 @@ html{
     font-family:'Montserrat', sans-serif;
     font-size: 10px;
 }
-body{
-
-}
 
 .main-navigation-list{
     display: flex;
@@ -39,11 +36,6 @@ body{
     color: lightskyblue;
 }
 
-
-.main-photo{
-    /* position: relative; */
-
-}
 .main-photo img{
     position: absolute;
     top: 0;
