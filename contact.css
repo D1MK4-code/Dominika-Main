@@ -29,9 +29,9 @@ html{
 
 .contact-main-paragraph {
     display: block;
-    max-width: 511px;
+    max-width: 493px;
     padding: 0 100px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.4;
 }
 
@@ -44,10 +44,14 @@ html{
 
 .contact-form form input {
     border: 1px solid #000;
+    border-radius: 7px;
+    padding: 2px;
 }
 
 .contact-form form textarea {
     border: 1px solid #000;
+    border-radius: 7px;
+    padding: 2px;
 }
 
 .in_form {
@@ -64,4 +68,6 @@ html{
     letter-spacing: 0px;
     transition: 0.5s;
     padding: 7px;
+    border-radius: 5px;
+
 }

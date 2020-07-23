@@ -71,6 +71,7 @@ html{
 .sci {
     display: flex;
     flex-direction: row;
+
 }
 
 .sci li {
@@ -88,6 +89,8 @@ html{
     text-decoration: none;
     border: 2px solid #000;
     margin: 10px 0 0;
+    border-radius: 10px;
+
 }
 
 .sci li a:hover {
