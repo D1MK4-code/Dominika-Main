@@ -12,7 +12,7 @@ html{
 
 .contact-title-wrapper {
     display: flex;
-    padding: 20px 100px;
+    padding: 15px 100px;
 }
 
 .contact-main-text {
@@ -37,8 +37,8 @@ html{
 
 .contact-form {
     margin-top: 20px;
-    padding: 20px 100px;
-    font-size: 1.3rem;
+    padding: 10px 100px;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -51,7 +51,7 @@ html{
 }
 
 .in_form {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .contact-form form input[type="submit"] {
