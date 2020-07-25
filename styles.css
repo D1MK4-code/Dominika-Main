@@ -68,7 +68,7 @@
     text-decoration: none;
     cursor: pointer;
     outline: none;
-
+    z-index: 500;
 }
 
 .toggle-button .bar {
