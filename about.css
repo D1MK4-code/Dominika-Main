@@ -14,30 +14,37 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    padding-top: 100px;
 }
 
 .about-photo img{
-    width: 420px;
+    width: 400px;
 }
 
 .first_wrapper {
     display: flex;
     flex-direction: column;
-    width: 400px;
 
 }
 
 .about-text-wrapper h1{
     font-size: 4rem;
     font-weight: 700;
+    margin-top: 20px;
+
 }
 
 .about-main-section p{
     padding-bottom: 35px;
-    width: 470px;
+    padding-top: 65px;
+    max-width: 470px;
     font-size: 1.6rem;
     line-height: 1.6;
+}
+
+.about-main-section h2{
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 /* .about-text-wrapper{
@@ -76,7 +83,4 @@ html{
 .about-main-section p{
     width: 500px;
 }
-.about-main-section h2{
-    font-size: 2rem;
-    font-weight: 700;
-} */
+ */

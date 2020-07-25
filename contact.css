@@ -12,12 +12,13 @@ html{
 
 
 .contact-content-wrapper {
-    padding-top: 35px;
+    padding-top: 60px;
+    margin-bottom: 85px;
 }
 
 .contact-title-wrapper {
     display: flex;
-    padding: 50px 100px;
+    padding: 20px 100px;
 }
 
 .contact-main-text {

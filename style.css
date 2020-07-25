@@ -8,38 +8,39 @@
 html{
     font-family:'Montserrat', sans-serif;
     font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+.main-section-wrapper {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .main-photo img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 35%;
-    height: 100vh;
-    display: none;
+    width: 350px;
+    margin: 100px 100px
 }
 
 .main-text-wrapper{
     display: flex;
     flex-direction: column;
-    width: 65%;
-    height: calc(100vh - 0px);
     align-items: flex-end;
-    padding: 50px;
     text-align: right;
     justify-content: center;
+    padding: 50px;
+
 }
 .main-text-wrapper h1{
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 700;
 
 }
 .main-text-wrapper p{
-    padding-top: 60px;
-    padding-bottom: 40px;
     width: 310px;
     font-size: 1.8rem;
     line-height: 1.6;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .sci {
