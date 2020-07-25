@@ -20,7 +20,6 @@ html{
 .about-photo img{
     width: 400px;
     border-radius: 15px;
-
 }
 
 .first_wrapper {
@@ -69,8 +68,8 @@ html{
     font-size: 1.6rem;
     line-height: 1.6;
     text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
     max-width: 600px;
 }
 
@@ -78,7 +77,7 @@ html{
     font-size: 2rem;
     font-weight: 700;
     text-align: left;
-    padding-left: 25px;
+    padding-left: 45px;
     padding-right: 25px;
 }
 

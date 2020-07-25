@@ -89,18 +89,18 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: right;
     justify-content: center;
     padding-top: 150px;
     /* width: 500px; */
 }
 
 .main-text-wrapper h1{
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
-    width: 650px;
     padding-left: 25px;
     padding-right: 25px;
+    max-width: 750px;
+    text-align: center;
 }
 
 .main-text-wrapper p{
@@ -129,7 +129,6 @@ html{
 .main-text-wrapper h1{
     font-size: 5rem;
     font-weight: 700;
-    max-width: 300px;
 }
 
 .main-photo img{
