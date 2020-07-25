@@ -46,6 +46,7 @@ html{
 .sci {
     display: flex;
     flex-direction: row;
+    margin-bottom: 70px;
 }
 
 .sci li {
