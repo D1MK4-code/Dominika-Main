@@ -42,7 +42,7 @@ html{
     right: 0;
     min-width: 35%;
     height: 100vh;
-
+    display: none;
 }
 
 .main-text-wrapper{

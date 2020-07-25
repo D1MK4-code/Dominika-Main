@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
+* {
     box-sizing: border-box;
 }
-html{
-    font-family:'Montserrat', sans-serif;
-    font-size: 10px;
+
+body {
+    margin: 0;
+    padding: 0;
 }
-
-
 
 .navbar {
     display: flex;
@@ -100,71 +95,4 @@ html{
     .navbar-links.active {
         display: flex;
     }
-}
-
-
-
-
-.contact-title-wrapper {
-    display: flex;
-    padding: 15px 100px;
-}
-
-.contact-main-text {
-    display: block;
-    margin-right: 30px;
-    font-size: 5.2rem;
-    font-weight: 700;
-}
-
-.contact-main-icon img {
-    height: 64px;
-    width: 64px;
-}
-
-.contact-main-paragraph {
-    display: block;
-    max-width: 823px;
-    padding: 0 100px;
-    font-size: 1.6rem;
-    line-height: 1.4;
-}
-
-.contact-form {
-    margin-top: 20px;
-    padding: 10px 100px;
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-
-.contact-form form input {
-    border: 1px solid #000;
-    border-radius: 7px;
-    padding: 2px;
-    width: 200px;
-}
-
-.contact-form form textarea {
-    border: 1px solid #000;
-    border-radius: 7px;
-    padding: 2px;
-}
-
-.in_form {
-    margin-bottom: 12px;
-}
-
-.contact-form form input[type="submit"] {
-    max-width: 200px;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-    font-size: 1.3rem;
-    font-weight: 600;
-    letter-spacing: 0px;
-    transition: 0.5s;
-    padding: 7px;
-    border-radius: 5px;
-    margin-top: 10px;
-
 }
