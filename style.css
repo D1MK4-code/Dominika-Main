@@ -18,7 +18,8 @@ html{
 
 .main-photo img{
     width: 350px;
-    margin: 100px 100px
+    margin: 100px 100px;
+    border-radius: 15px;
 }
 
 .main-text-wrapper{
@@ -33,7 +34,7 @@ html{
 .main-text-wrapper h1{
     font-size: 6rem;
     font-weight: 700;
-
+    width: 350px;
 }
 .main-text-wrapper p{
     width: 310px;
@@ -46,7 +47,6 @@ html{
 .sci {
     display: flex;
     flex-direction: row;
-
 }
 
 .sci li {
@@ -74,5 +74,44 @@ html{
 
 .sci li a img {
     max-width: 20px;
+
+}
+
+@media (max-width: 990px) {
+
+.main-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    padding-top: 150px;
+    /* width: 500px; */
+}
+
+.main-text-wrapper h1{
+    font-size: 6rem;
+    font-weight: 700;
+    width: 550px;
+}
+
+.main-text-wrapper p{
+    width: 310px;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
+}
+
+.main-photo img{
+    display: none;
+}
 
 }
