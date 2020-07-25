@@ -5,6 +5,12 @@
 
 }
 
+button {
+    background: #333;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .navbar {
     width: 100%;
