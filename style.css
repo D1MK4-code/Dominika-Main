@@ -118,7 +118,7 @@ html{
 
 }
 
-@media (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
 
 .main-section-wrapper {
     display: flex;
@@ -129,6 +129,7 @@ html{
 .main-text-wrapper h1{
     font-size: 5rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .main-photo img{
