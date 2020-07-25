@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="background_styles.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <title>Dominika Napora</title>
 </head>
@@ -23,9 +25,9 @@
         </a>
         <div class="navbar-links">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">O mnie</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href=#about>O mnie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
         </div>
     </nav>
@@ -33,7 +35,7 @@
     <div class="main-photo">
         <img src="./assets/main_photo.jpg" alt="">
     </div>
-    <div class="main-text-wrapper">
+    <div class="main-text-wrapper" id="home">
         <h1>Twój nowy <br><span>tekst</span></h1>
         <p>While artists work from real to the abstract, architects must work from the abstract to the real. </p>
         <ul class="sci animate__animated animate__fadeIn">
@@ -46,6 +48,63 @@
             </li>
         </ul>
     </div>
+
+    <!-- About page -->
+
+    <section class="about_section_wrapper" id="about">
+        <div class="first_wrapper">
+            <div class="about-text-wrapper">
+                <h1>Cześć, tu Dominika!</h1>
+            </div>
+            <div class="about-main-section">
+                <p>Skończyłam kurs korekty tekstu i to dopiero początek mojej przygody. Cały czas się uczę, sprawdzam i
+                    stawiam
+                    na praktykę, bo tylko w ten sposób mogę się rozwijać.
+                    Język żyje i ciągle się zmienia, coś co uznajemy za błąd, może za jakiś czas stać się normą
+                    użytkową,
+                    czyli
+                    taką którą posługujemy się na co dzień. Dlatego nie napiszę Ci, że znam wszystkie zasady i cały
+                    słownik
+                    ortograficzny na pamięć, ale sprawię, że Twoje teksty staną się przejrzyste i łatwe w odbiorze.
+                    Poza korektą, pielęgnuję w mieszkaniu małą, prywatną dżunglę i czytam sporo książek, o których
+                    zresztą
+                    będziesz mógł/mogła przeczytać na blogu.</p>
+                <h2>Dominika Napora</h2>
+            </div>
+        </div>
+        <div class="about-photo">
+            <img src="./assets/about_photo.png" alt="">
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact-content-wrapper" id="contact">
+        <div class="contact-title-wrapper">
+            <h1 class="contact-main-text">Formularz kontaktowy</h1>
+            <div class="contact-main-icon">
+                <img src="assets/contact-icon.svg" alt="">
+            </div>
+        </div>
+        <p class="contact-main-paragraph animate__animated animate__fadeIn">Please do not hesitate to contact me if you
+            are interested in any of our titles. Of course I will be pleased to provide further information or reading
+            copies.</p>
+        <div class="contact-form animate__animated animate__fadeIn">
+            <form method="post" name="contactform" data-netlify="true">
+                <h3 class="in_form">Imię</h3>
+                <input type="text" id="name" name="name" class="in_form" required />
+                <h3 class="in_form">Adres e-mail</h3>
+                <input type="email" id="email" name="email" class="in_form" required />
+                <h3 class="in_form">W czym mogę Ci pomóc?</h3>
+                <textarea id="message" name="message" class="in_form" rows="6" cols="75" required></textarea>
+                </br>
+                <div class="spam-filtering">
+                    <div data-netlify-recaptcha="true"></div>
+                </div>
+                <input type="submit" name="submit" value="Wyślij wiadomość" class="in_form" />
+            </form>
+        </div>
+    </section>
 
 </body>
 

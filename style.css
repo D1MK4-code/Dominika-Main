@@ -23,7 +23,7 @@ html{
     display: flex;
     flex-direction: column;
     width: 65%;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 0px);
     align-items: flex-end;
     padding: 50px;
     text-align: right;
