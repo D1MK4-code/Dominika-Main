@@ -10,32 +10,6 @@ html{
     font-size: 10px;
 }
 
-.main-navigation-list{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 25px;
-    margin-left: 25px;
-}
-.main-navigation-item span{
-    font-size: 2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.main-navigation-item{
-    font-size: 1.6rem;
-    padding: 30px;
-    font-weight: 600;
-}
-.main-navigation-list a{
-    text-decoration: none;
-    color: #000;
-}
-.main-navigation-list li:hover{
-    font-size: 1.7rem;
-    color: lightskyblue;
-}
-
 .main-photo img{
     position: absolute;
     top: 0;
