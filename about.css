@@ -15,6 +15,7 @@ html{
     flex-direction: row;
     justify-content: space-around;
     padding-top: 100px;
+    margin-bottom: 150px;
 }
 
 .about-photo img{
@@ -89,6 +90,14 @@ html{
     font-size: 3rem;
     font-weight: 700;
     margin-top: 20px;
+}
+
+.about_section_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin-bottom: 10px;
 }
 
 }

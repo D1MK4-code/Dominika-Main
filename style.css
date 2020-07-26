@@ -11,14 +11,20 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .main-section-wrapper {
     display: flex;
     justify-content: flex-end;
+    width: 90%;
+    padding: 2%;
 }
 
 .main-photo img{
     width: 350px;
-    margin: 100px 100px;
+    margin-top: 100px;
     border-radius: 15px;
 }
 
@@ -28,15 +34,15 @@ html{
     align-items: flex-end;
     text-align: right;
     justify-content: center;
-
+    margin-right: 100px;
 }
 .main-text-wrapper h1{
     font-size: 6rem;
     font-weight: 700;
-    width: 350px;
+    width: 90%;
 }
 .main-text-wrapper p{
-    width: 310px;
+    max-width: 310px;
     font-size: 1.8rem;
     line-height: 1.6;
     margin-top: 50px;
@@ -52,7 +58,6 @@ html{
 .sci li {
     list-style: none;
     margin-left: 10px;
-
 }
 
 .sci li a {
@@ -83,6 +88,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .main-text-wrapper{
@@ -99,7 +105,6 @@ html{
     font-weight: 700;
     padding-left: 25px;
     padding-right: 25px;
-    max-width: 750px;
     text-align: center;
 }
 
@@ -124,6 +129,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100vw;
 }
 
 .main-text-wrapper h1{
@@ -148,7 +154,7 @@ html{
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 199px) {
     .main-photo img{
         display: none;
     }
