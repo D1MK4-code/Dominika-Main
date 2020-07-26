@@ -17,6 +17,8 @@ html{
     max-width: 1000px;
     width: 90%;
     box-shadow: 0 0 10px #000000b3;
+    border-radius: 15px;
+
 }
 
 .contact-form textarea {
