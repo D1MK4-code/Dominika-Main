@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 * {
     font-family:'Montserrat', sans-serif;
 
@@ -13,8 +13,8 @@
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: #fff;
+    color: black;
 }
 
 .brand-title {
@@ -23,7 +23,7 @@
     margin: .5rem;
     font-weight: 400;
     padding: 10px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Sacramento', cursive;
 }
 
 .navbar-links {
@@ -45,13 +45,13 @@
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 1rem;
     font-size: 1.5rem;
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: #dfdfdf;
     border-radius: 10px;
 }
 
@@ -92,11 +92,12 @@
     }
 
     .toggle-button {
-        display: flex;
+        display: none;
         top: 1.2rem;
         right: 1.3rem;
         width: 25px;
         height: 17px;
+        bgc
     }
 
     .toggle-button .bar {
