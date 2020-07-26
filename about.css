@@ -15,6 +15,7 @@ html{
     flex-direction: row;
     justify-content: space-around;
     padding-top: 100px;
+    margin-bottom: 150px;
 }
 
 .about-photo img{
