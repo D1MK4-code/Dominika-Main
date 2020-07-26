@@ -103,4 +103,24 @@ html{
         font-weight: 700;
         text-align: left;
     }
+
+    .contact-title-wrapper {
+        display: flex;
+        padding: 20px 30px;
+    }
+
+    .contact-main-paragraph {
+        display: block;
+        max-width: 823px;
+        padding: 0 30px;
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+        padding: 10px 30px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
 }
