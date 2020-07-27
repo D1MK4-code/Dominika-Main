@@ -15,9 +15,9 @@ html{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 90%;
+    width: 80%;
     padding: 2%;
-    margin: 0 auto;
+    /* margin: 10px auto; */
 }
 
 .about-photo img{
@@ -57,14 +57,17 @@ html{
     align-items: center;
     padding-top: 100px;
     margin-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .first_wrapper {
     padding-bottom: 150px;
     margin-bottom: 50px;
     text-align: center;
-    width: 80%;
-    margin: 0 auto;
+    width: 75%;
+    align-self: center;
 }
 
 .first_wrapper p{
