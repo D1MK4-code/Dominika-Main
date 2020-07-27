@@ -28,7 +28,7 @@ html{
 .first_wrapper {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 95%;
 }
 
 .first_wrapper h1{
@@ -55,14 +55,13 @@ html{
     padding-top: 100px;
     margin-bottom: 10px;
     /* width: 90%; */
-    padding: 2%;
 }
 
 .first_wrapper {
     padding-bottom: 150px;
     margin-bottom: 50px;
     /* width: 90%; */
-    margin: 0 ;
+    /* margin: 0 auto; */
 }
 
 .first_wrapper p{
