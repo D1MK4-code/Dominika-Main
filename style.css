@@ -11,9 +11,12 @@ html{
     scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 body {
     overflow-x: hidden;
 }
+=======
+>>>>>>> master
 
 .main-section-wrapper {
     display: flex;
@@ -23,8 +26,13 @@ body {
 }
 
 .main-photo img{
+<<<<<<< HEAD
     width: 350px;
     margin-top: 100px;
+=======
+    max-width: 350px;
+    margin: 100px 100px;
+>>>>>>> master
     border-radius: 15px;
 }
 
@@ -109,7 +117,7 @@ body {
 }
 
 .main-text-wrapper p{
-    width: 310px;
+    max-width: 310px;
     font-size: 1.8rem;
     line-height: 1.6;
     margin-top: 50px;
@@ -123,7 +131,7 @@ body {
 
 }
 
-@media (min-width: 200px) and (max-width: 500px) {
+@media (max-width: 500px) {
 
 .main-section-wrapper {
     display: flex;
@@ -154,8 +162,11 @@ body {
 
 }
 
+<<<<<<< HEAD
 @media (max-width: 199px) {
     .main-photo img{
         display: none;
     }
 }
+=======
+>>>>>>> master
