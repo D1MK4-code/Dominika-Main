@@ -17,7 +17,8 @@ html{
     align-items: center;
     width: 80%;
     padding: 2%;
-    margin: 10px auto;
+    margin: 100px auto;
+
 }
 
 .about-photo img{
@@ -53,8 +54,9 @@ html{
 
 .about_section_wrapper {
     padding-top: 100px;
-    margin-bottom: 10px;
     /* width: 90%; */
+    margin: 10px auto;
+
 }
 
 .first_wrapper {
