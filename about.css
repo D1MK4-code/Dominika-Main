@@ -57,23 +57,24 @@ html{
     align-items: center;
     padding-top: 100px;
     margin-bottom: 10px;
-    text-align: center;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
+    padding: 2%;
 }
 
 .first_wrapper {
     padding-bottom: 150px;
     margin-bottom: 50px;
     text-align: center;
-    width: 75%;
+    width: 90%;
     align-self: center;
+    margin: 0 auto;
 }
 
 .first_wrapper p{
     padding-bottom: 55px;
     padding-top: 75px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     text-align: left;
     /* padding-left: 45px;
@@ -82,7 +83,7 @@ html{
 }
 
 .first_wrapper h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     text-align: left;
     /* padding-left: 45px;
@@ -94,7 +95,7 @@ html{
 }
 
 .first_wrapper h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 700;
     margin-top: 20px;
 }
