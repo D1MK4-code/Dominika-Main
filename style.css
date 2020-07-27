@@ -119,7 +119,7 @@ html{
 
 }
 
-@media and (max-width: 500px) {
+@media (max-width: 500px) {
 
 .main-section-wrapper {
     display: flex;
