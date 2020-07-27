@@ -17,6 +17,7 @@ html{
     align-items: center;
     width: 90%;
     padding: 2%;
+    margin: 0 auto;
 }
 
 .about-photo img{
@@ -62,7 +63,7 @@ html{
     padding-bottom: 150px;
     margin-bottom: 50px;
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
