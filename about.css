@@ -48,15 +48,16 @@ html{
     font-weight: 700;
 }
 
-
-
 @media (max-width: 990px) {
 
 .about_section_wrapper {
     padding-top: 100px;
     /* width: 90%; */
     margin: 10px auto;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .first_wrapper {
@@ -88,6 +89,7 @@ html{
 .about-photo img{
     display: none;
 }
+
 
 .first_wrapper h1{
     font-size: 2.8rem;
