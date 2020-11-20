@@ -563,6 +563,7 @@ ul {
 }
 
 .brand2 {
+  font-size: 2.2rem;
   text-align: center;
   padding-bottom: 5px;
   font-weight: 600;
@@ -625,7 +626,6 @@ ul {
 }
 
 .brand2 {
-  font-size: 3rem;
   font-weight: 400;
 }
 
@@ -704,6 +704,7 @@ ul {
   .company-info ul,
   .brand2 {
     text-align: left;
+    font-size: 3rem;
   }
 
   .wrapper_container {
