@@ -38,7 +38,7 @@ p {
   padding: 10px 30px;
   color: white;
   background-color: transparent;
-  border: 2px solid #48dbfb;
+  border: 2px solid #8cb3d2;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -48,7 +48,7 @@ p {
 }
 .cta:hover {
   color: white;
-  background-color: #48dbfb;
+  background-color: #8cb3d2;
 }
 
 .section-title {
@@ -61,7 +61,7 @@ p {
   text-align: center;
 }
 .section-title span {
-  color: #48dbfb;
+  color: #8cb3d2;
 }
 
 .sci {
@@ -83,12 +83,12 @@ p {
   width: 45px;
   height: 45px;
   text-decoration: none;
-  border: 2px solid #48dbfb;
+  border: 2px solid #8cb3d2;
   margin: 20px 0 0;
 }
 
 .sci li a:hover {
-  background: #48dbfb;
+  background: #8cb3d2;
   transition: 0.5s ease;
   transition-property: background-color, color;
 }
@@ -111,7 +111,8 @@ p {
   margin-left: 10px;
 }
 .brand h1 .light_blue_span {
-  color: #48dbfb;
+  color: #8cb3d2;
+  font-size: 1.2rem;
 }
 
 .brand h1 .second_span {
@@ -144,7 +145,7 @@ p {
 #header .nav-list ul {
   list-style: none;
   position: absolute;
-  background-color: lightblue;
+  background-color: #8cb3d2;
   width: 100vw;
   height: 100vh;
   left: 100%;
@@ -187,7 +188,7 @@ p {
   letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-  color: #48dbfb;
+  color: #8cb3d2;
 }
 #header .hamburger {
   height: 60px;
@@ -213,7 +214,7 @@ p {
   height: 2px;
   width: 30px;
   position: relative;
-  background-color: #48dbfb;
+  background-color: #8cb3d2;
   z-index: -1;
 }
 #header .hamburger .bar::after,
@@ -223,7 +224,7 @@ p {
   height: 100%;
   width: 100%;
   left: 0;
-  background-color: #48dbfb;
+  background-color: #8cb3d2;
   transition: 0.3s ease;
   transition-property: top, bottom;
 }
@@ -245,9 +246,10 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(./assets/hero-bg.jpg);
+  background-image: url(assets/bg-small.jpg);
   background-size: cover;
-  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
   position: relative;
   z-index: 1;
 }
@@ -302,7 +304,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: #48dbfb;
+  background-color: #8cb3d2;
   /* animation: text_reveal_box .8s ease;
 	animation-delay: .5s; */
 }
@@ -348,7 +350,7 @@ p {
   flex-direction: column;
   padding: 30px;
   /* border-radius: 10px; */
-  background-image: url(./assets/img-1.png);
+  background-image: url(./assets/korekta.jpg);
   background-size: cover;
   margin: 40px 5%;
   position: relative;
@@ -356,6 +358,10 @@ p {
   overflow: hidden;
   height: 520px;
   box-shadow: 5px 5px #dfdfdf;
+}
+#services .service-item-second {
+  background-image: url(./assets/redakcja.jpg) !important;
+  background-size: cover;
 }
 #services .service-item::after {
   content: "";
@@ -519,7 +525,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid #48dbfb;
+  border: 7px solid #8cb3d2;
   z-index: -1;
 }
 
@@ -623,7 +629,7 @@ ul {
 }
 
 .brand2 span {
-  color: #48dbfb;
+  color: #8cb3d2;
   font-weight: 500;
 }
 
@@ -645,7 +651,7 @@ ul {
 .contact form .button {
   width: 100%;
   padding: 1em;
-  border: 2px solid #48dbfb;
+  border: 2px solid #8cb3d2;
   box-shadow: 5px 5px #dfdfdf;
   /* border-radius: 15px; */
   /* outline: none; */
@@ -661,7 +667,7 @@ ul {
 
 .contact form .button:hover,
 .contact form .button:focus {
-  background: #48dbfb;
+  background: #8cb3d2;
   color: #000;
   outline: 0;
   transition: background-color 0.3s ease-out;
@@ -721,7 +727,7 @@ ul {
 
 /* Footer */
 #footer {
-  background-image: linear-gradient(60deg, #38414b 0%, #48dbfb 100%);
+  background-image: linear-gradient(60deg, #38414b 0%, #8cb3d2 100%);
 }
 
 #footer .footer {
@@ -789,7 +795,7 @@ ul {
 }
 @keyframes text_reveal_name {
   100% {
-    color: #48dbfb;
+    color: #8cb3d2;
     font-weight: 500;
   }
 }
@@ -807,8 +813,9 @@ ul {
 
   /* Hero */
   #hero {
-    background-size: cover;
-    background-position: 50% 50%;
+    background-image: url(assets/hero-bg.jpeg);
+    background: contain no-repeat;
+    background-position: 90% 65%;
   }
   #hero h1 {
     font-size: 4rem;
@@ -860,8 +867,8 @@ ul {
     align-items: center;
   }
   #about .col-left {
-    width: 600px;
-    height: 400px;
+    width: 650px;
+    height: 450px;
     padding-left: 60px;
   }
   #about .col-left .about-img {
@@ -872,14 +879,14 @@ ul {
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 7px solid #48dbfb;
+    border: 7px solid #8cb3d2;
   }
   #about .about2 .col-left .about-img::after {
     left: -45px;
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 7px solid #48dbfb;
+    border: 7px solid #8cb3d2;
   }
   #about .col-right {
     text-align: left;
@@ -897,6 +904,9 @@ ul {
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
   /* header */
+  .brand {
+    margin-top: 23px;
+  }
   #header .hamburger {
     display: none;
   }
