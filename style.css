@@ -26,7 +26,7 @@ img {
 }
 p {
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-top: 5px;
   line-height: 2.5rem;
   font-weight: 300;
@@ -803,6 +803,9 @@ ul {
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.4rem;
+  }
   .cta {
     font-size: 2.5rem;
     padding: 20px 60px;
