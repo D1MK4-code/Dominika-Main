@@ -362,7 +362,10 @@ p {
 }
 #services .service-item-second {
   background-image: url(./assets/redakcja.jpg) !important;
-  background-size: cover;
+}
+
+#services .service-item-third {
+  background-image: url(./assets/roznice.jpg) !important;
 }
 #services .service-item::after {
   content: "";
